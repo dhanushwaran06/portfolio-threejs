@@ -1,8 +1,17 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import MailIcon from "@mui/icons-material/Mail";
 // import { ComputersCanvas } from "./canvas/";
 
 const Hero = () => {
+  const githubUrl = "https://github.com/dhanushwaran06";
+  const linkedinUrl = "https://www.linkedin.com/in/dhanushwaranaj/";
+  const emailUrl = "mailto:ajdhanush.jvl@gmail.com";
+  const resumeUrl =
+    "https://drive.google.com/file/d/1SHQu1EOPH9UwQ0eRaoQoy8mMQz7mBkAm/view?usp=sharing";
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -15,7 +24,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi👋, I'm <span className="text-[#915EFF]">Dhanushwaran!</span>
+            Hi👋, I'm <span className="text-[#915EFF]">Dhanushwaran</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop a creative <br className="sm:block hidden" />
@@ -27,14 +36,43 @@ const Hero = () => {
             Graduation
           </p>
           <div className="pt-10">
-            <a href="www.google.com" type="button" className=" border"> Resume</a>
+            <div className="flex items-center space-x-6">
+              <a
+                href={linkedinUrl}
+                target="_blank"
+                className="hover:scale-110 transform transition-transform duration-300"
+              >
+                <LinkedInIcon className="w-8 h-8 md:w-10 md:h-10" />
+              </a>
+              <a
+                href={githubUrl}
+                target="_blank"
+                className="hover:scale-110 transform transition-transform duration-300"
+              >
+                <GitHubIcon className="w-8 h-8 md:w-10 md:h-10" />
+              </a>
+              <a
+                href={emailUrl}
+                target="_blank"
+                className="hover:scale-110 transform transition-transform duration-300"
+              >
+                <MailIcon className="w-8 h-8 md:w-10 md:h-10" />
+              </a>
+
+              <button
+                onClick={() => window.open(resumeUrl, "_blank")}
+                className="bg-[#915EFF] text-white text-[14px] font-medium px-4 py-2 rounded-md hover:bg-[#704DD2] transition-colors duration-300"
+              >
+                View Resume
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
       {/* <ComputersCanvas /> */}
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-10  bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
