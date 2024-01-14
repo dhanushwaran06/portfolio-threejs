@@ -21,11 +21,6 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import linux from "./tech/linux.png";
 
-// import meta from "./company/meta.png";
-// import shopify from "./company/shopify.png";
-// import starbucks from "./company/starbucks.png";
-// import tesla from "./company/tesla.png";
-
 import project_1 from "./project1.png";
 import project_2 from "./project2.png";
 import project_3 from "./project3.png";
@@ -51,12 +46,7 @@ export {
   redux,
   tailwind,
   typescript,
-  // threejs,
   linux,
-  // meta,
-  // shopify,
-  // starbucks,
-  // tesla,
   project_1,
   project_2,
   project_3,
