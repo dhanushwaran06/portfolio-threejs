@@ -25,8 +25,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "works",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -171,7 +171,7 @@ const projects = [
     source_code_link: "https://github.com/dhanushwaran06/Freelancing-Website",
   },
   {
-    name: "Bike Service",
+    name: "Bike Service Website",
     description:
       " Create connections between bike service seekers and service providers. This project streamlines the process of matching customers with service providers.",
     tags: [

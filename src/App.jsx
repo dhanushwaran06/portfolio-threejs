@@ -12,7 +12,7 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary w-fit lg:w-auto sm:w-fit">
+      <div className="relative z-0 bg-primary lg:w-auto">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
