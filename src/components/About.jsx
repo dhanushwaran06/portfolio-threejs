@@ -10,16 +10,14 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
-    >
+      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
       <div
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
-      >
+        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
         <img
           src={icon}
           alt="web-development"
@@ -44,14 +42,22 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        I am a college student with a passion for software development. My focus
-        is on JavaScript and I have experience with popular frameworks such as
-        React, Next, and Node.js. My goal is to collaborate with clients and
-        create efficient, scalable, and user-friendly solutions. I am eager to
-        learn and grow in the software development field while turning ideas
-        into reality.
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        I'm a Computer Science Engineer who loves engineering because of my
+        passion for technology and Full Stack Engineering. I am committed to
+        solving industry challenges by creating visually stunning,
+        high-performing products that prioritize exceptional user experiences.
+        <br />
+        <br />
+        Currently, I contribute to open-source projects to expand my knowledge
+        and give back to the community. I actively explore innovative solutions
+        in the MERN Stack and Next.js, while continuously learning about
+        technologies such as the LAMP Stack and Python.
+        <br />
+        <br />
+        I'm enthusiastic about AI, Web3, and Cybersecurity, aiming to innovate
+        responsibly and stay ahead of the curve. Let's connect and explore
+        exciting collaboration opportunities! 🤝🏻
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">

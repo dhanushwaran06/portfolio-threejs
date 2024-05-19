@@ -3,6 +3,7 @@ import { styles } from "../styles";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailIcon from "@mui/icons-material/Mail";
+
 // import { ComputersCanvas } from "./canvas/";
 
 const Hero = () => {
@@ -15,8 +16,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[200px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
-      >
+        className={`absolute inset-0 top-[200px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
@@ -26,43 +26,41 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi👋, I'm <span className="text-[#915EFF]">Dhanushwaran</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop a creative <br className="sm:block hidden" />
-            user interfaces and responsive web applications.
+          <p
+            className={`${styles.heroSubText} mt-2 text-white-100 text-[20px]`}>
+            Innovating with Technology: <br className="sm:block hidden" />
+            Crafting Creative User Interfaces, Building Responsive Web
+            Applications, and Exploring Emerging Tech
           </p>
           <p className="pt-10 sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
-            Actively seeking an entry-level front-end developer position{" "}
-            <br className="sm:block hidden" /> | MERN Stack | React JS | 2024
-            Graduation
+            Passionate Web Developer [ MERN, LAMP ] | Python | Docker |{" "}
+            <br className="sm:block hidden" /> | Networking | Exploring
+            Cybersecurity Graduation
           </p>
           <div className="pt-10">
             <div className="flex items-center space-x-6">
               <a
                 href={linkedinUrl}
                 target="_blank"
-                className="hover:scale-110 transform transition-transform duration-300"
-              >
+                className="hover:scale-110 transform transition-transform duration-300">
                 <LinkedInIcon className="w-8 h-8 md:w-10 md:h-10" />
               </a>
               <a
                 href={githubUrl}
                 target="_blank"
-                className="hover:scale-110 transform transition-transform duration-300"
-              >
+                className="hover:scale-110 transform transition-transform duration-300">
                 <GitHubIcon className="w-8 h-8 md:w-10 md:h-10" />
               </a>
               <a
                 href={emailUrl}
                 target="_blank"
-                className="hover:scale-110 transform transition-transform duration-300"
-              >
+                className="hover:scale-110 transform transition-transform duration-300">
                 <MailIcon className="w-8 h-8 md:w-10 md:h-10" />
               </a>
-
+              {/* <FontAwesomeIcon icon="fa-brands fa-discord" /> */}
               <button
                 onClick={() => window.open(resumeUrl, "_blank")}
-                className="bg-[#915EFF] text-white text-[14px] font-medium px-4 py-2 rounded-md hover:bg-[#704DD2] transition-colors duration-300"
-              >
+                className="bg-[#915EFF] text-white text-[14px] font-medium px-4 py-2 rounded-md hover:bg-[#704DD2] transition-colors duration-300">
                 View Resume
               </button>
             </div>
