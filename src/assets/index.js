@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import linux from "./tech/linux.png";
+import php from "./tech/php.png";
+import python from "./tech/python.png";
+import sql from "./tech/sql.png";
 
 import project_1 from "./project1.png";
 import project_2 from "./project2.png";
@@ -47,6 +50,9 @@ export {
   tailwind,
   typescript,
   linux,
+  php,
+  python,
+  sql,
   project_1,
   project_2,
   project_3,

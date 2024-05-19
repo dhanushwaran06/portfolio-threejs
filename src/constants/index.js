@@ -14,9 +14,12 @@ import {
   figma,
   docker,
   linux,
+  php,
+  python,
   project_1,
   project_2,
-  project_3
+  project_3,
+  sql,
 } from "../assets";
 
 export const navLinks = [
@@ -36,7 +39,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
+    title: "Frontend Development",
     icon: web,
   },
   // {
@@ -44,7 +47,7 @@ const services = [
   //   icon: mobile,
   // },
   {
-    title: "Backend Developer",
+    title: "LAMP Stack Development",
     icon: backend,
   },
   {
@@ -66,9 +69,17 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "php",
+    icon: php,
+  },
+  {
+    name: "python",
+    icon: python,
   },
   {
     name: "React JS",
@@ -89,6 +100,10 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "MySQL",
+    icon: sql,
   },
   // {
   //   name: "Three JS",
@@ -135,7 +150,6 @@ const projects = [
         name: "TailwindCSS",
         color: "blue-text-gradient",
       },
-      
     ],
     image: project_1,
     source_code_link: "https://github.com/dhanushwaran06/Notion-clone-nextjs",
@@ -193,7 +207,8 @@ const projects = [
       },
     ],
     image: project_3,
-    source_code_link: "https://github.com/dhanushwaran06/BikeServices-Application-Using-MERN-Stack",
+    source_code_link:
+      "https://github.com/dhanushwaran06/BikeServices-Application-Using-MERN-Stack",
   },
 ];
 

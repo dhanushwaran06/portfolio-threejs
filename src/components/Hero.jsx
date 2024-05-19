@@ -11,7 +11,7 @@ const Hero = () => {
   const linkedinUrl = "https://www.linkedin.com/in/dhanushwaranaj/";
   const emailUrl = "mailto:ajdhanush.jvl@gmail.com";
   const resumeUrl =
-    "https://drive.google.com/file/d/1SHQu1EOPH9UwQ0eRaoQoy8mMQz7mBkAm/view?usp=sharing";
+    "https://drive.google.com/file/d/1zwn6JuWxGlyPo2IwOUazDCYCXEOWPj_M/view?usp=sharing";
 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
