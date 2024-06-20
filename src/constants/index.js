@@ -1,4 +1,5 @@
 import {
+  o2d3_logo,
   backend,
   creator,
   web,
@@ -127,6 +128,24 @@ const technologies = [
   },
 ];
 
+const experiences = [
+  {
+    title: "Full Stack Engineer Intern",
+    company_name: "O2D3",
+    link: "https://o2d3.com/",
+    icon: o2d3_logo,
+    iconBg: "#383E56",
+    date: "Feb 2024 - Present",
+    "points": [
+    "Joined a startup focused on technology-driven solutions for physiotherapy and fitness, aiming to address musculoskeletal problems and promote wellness.",
+    "Collaborated with cross-functional teams to integrate user-centric features.",
+    "Gained exposure to LAMP stack innovations using the internal framework 'FIBENIS', enhancing platform performance and user experience.",
+    "Participated in various phases of the software development lifecycle, gaining insights into design, deployment, and maintenance processes.",
+    "Observed manual and automation testing practices to ensure software quality and learned about integrating security measures."
+  ]
+  },
+];
+
 const projects = [
   {
     name: " A Notion Clone",
@@ -212,4 +231,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, projects };
+export { services, technologies,experiences, projects };

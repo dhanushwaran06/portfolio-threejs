@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import o2d3_logo from "./company/file-Photoroom.png";
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -30,6 +32,7 @@ import project_3 from "./project3.png";
 
 export {
   logo,
+  o2d3_logo,
   backend,
   creator,
   mobile,
