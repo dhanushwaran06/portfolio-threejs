@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import o2d3_logo from "./company/file-Photoroom.png";
+import kiospal_logo from "./company/logo_re2.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -33,6 +34,7 @@ import project_3 from "./project3.png";
 export {
   logo,
   o2d3_logo,
+  kiospal_logo,
   backend,
   creator,
   mobile,

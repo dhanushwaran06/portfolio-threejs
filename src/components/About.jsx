@@ -41,24 +41,21 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a Computer Science Engineer who loves engineering because of my
-        passion for technology and Full Stack Engineering. I am committed to
-        solving industry challenges by creating visually stunning,
-        high-performing products that prioritize exceptional user experiences.
-        <br />
-        <br />
-        Currently, I contribute to open-source projects to expand my knowledge
-        and give back to the community. I actively explore innovative solutions
-        in the MERN Stack and Next.js, while continuously learning about
-        technologies such as the LAMP Stack and Python.
-        <br />
-        <br />
-        I'm enthusiastic about AI, Web3, and Cybersecurity, aiming to innovate
-        responsibly and stay ahead of the curve. Let's connect and explore
-        exciting collaboration opportunities! 🤝🏻
-      </motion.p>
+      variants={fadeIn("", "", 0.1, 1)}
+      className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+      I'm a Computer Science Engineer with a passion for technology and development. As the founder of <strong>Kiospal</strong>, I’m driven to build innovative, high-performing solutions that empower small businesses with exceptional user experiences.
+      <br />
+      <br />
+      Currently, I contribute to open-source projects to expand my knowledge and give back to the community. I actively explore innovative solutions in the MERN Stack and Next.js, while continuously learning about technologies such as the LAMP Stack and Python.
+      <br />
+      <br />
+      I'm enthusiastic about AI, Web3, and Cybersecurity, aiming to innovate responsibly and stay ahead of the curve. Let's connect and explore exciting collaboration opportunities! 🤝🏻
+      <br/>
+      <br/>
+      Wisdom is power!
+      The only way to do great work is to love what you do.
+    </motion.p>
+
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (

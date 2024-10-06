@@ -24,18 +24,18 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi👋, I'm <span className="text-[#915EFF]">Dhanushwaran</span>
+            Hi👋, I'm <span className="text-[#915EFF]">Dhanushwaran A J</span>
           </h1>
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 text-[20px]`}>
             Innovating with Technology: <br className="sm:block hidden" />
-            Crafting Creative User Interfaces, Building Responsive Web
-            Applications, and Exploring Emerging Tech
+            Crafting Creative User Interfaces, Building Well Structured Web
+            Applications, and Exploring Vast Emerging Tech | Building Kiospal | Techie | Open Source Innovations
           </p>
           <p className="pt-10 sm:text-[18px] text-[16px] text-secondary uppercase tracking-wider">
-            Passionate Web Developer [ MERN, LAMP ] | Python | Docker |{" "}
-            <br className="sm:block hidden" /> | Networking | Exploring
-            Cybersecurity
+            Passionate Web E [ MERN, LAMP ] | Bash Scripting | Database design | Docker | Linux{" "}
+            <br className="sm:block hidden" /> | Networking | Exploring :
+            Defence Security, Web 3.0, IoT 
           </p>
           <div className="pt-10">
             <div className="flex items-center space-x-6 z-10 relative">

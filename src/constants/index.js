@@ -1,10 +1,11 @@
 import {
   o2d3_logo,
+  kiospal_logo,
   backend,
   creator,
   web,
   javascript,
-  typescript,
+  // typescript,
   html,
   css,
   reactjs,
@@ -143,6 +144,20 @@ const experiences = [
     "Participated in various phases of the software development lifecycle, gaining insights into design, deployment, and maintenance processes.",
     "Observed manual and automation testing practices to ensure software quality and learned about integrating security measures."
   ]
+  },
+  {
+    title: "Founder & CEO",
+    company_name: "Kiospal",
+    link: "https://kiospal.com",
+    icon: kiospal_logo,
+    iconBg: "#383E56",
+    date: "Aug 2024 - Present",
+    "points": [
+    "Founded **Kiospal**, a company offering tailored services for small businesses including website development, social media management, and analytics.",
+    "Provided specialized one-off projects and all-in-one packages with a unique lifetime maintenance offering to ensure ongoing business success.",
+    "Expertise in design & development (custom websites, UI/UX, landing pages), content creation (video editing, 3D animation, blog posts), and digital marketing (SEO, social media management)."
+]
+
   },
 ];
 
