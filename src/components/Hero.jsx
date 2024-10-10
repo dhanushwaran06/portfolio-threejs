@@ -29,14 +29,17 @@ const Hero = () => {
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 text-[20px]`}>
             Innovating with Technology: <br className="sm:block hidden" />
-            Crafting Creative User Interfaces, Building Well Structured Web
-            Applications, and Exploring Vast Emerging Tech | Building Kiospal | Techie | Open Source Innovations
+            Crafting Creative User Interfaces, Building Well-Structured Web
+            Applications, and Exploring Emerging Tech | Building Kiospal |
+            Techie | Open Source Innovator
           </p>
           <p className="pt-10 sm:text-[18px] text-[16px] text-secondary uppercase tracking-wider">
-            Passionate Web Enginner [ MERN, LAMP ] | Bash Scripting | Database design | Docker | Linux{" "}
-            <br className="sm:block hidden" /> | Networking | Exploring :
-            Defence Security, Web 3.0, IoT 
+            Passionate Web Engineer [MERN, LAMP] | Bash Scripting | DB Design |
+            Docker | Linux
+            <br className="sm:block hidden" /> | Networking | Exploring: WebSec,
+            Web 3.0, IoT
           </p>
+
           <div className="pt-10">
             <div className="flex items-center space-x-6 z-10 relative">
               <a
