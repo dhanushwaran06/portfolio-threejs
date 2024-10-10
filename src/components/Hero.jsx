@@ -33,7 +33,7 @@ const Hero = () => {
             Applications, and Exploring Vast Emerging Tech | Building Kiospal | Techie | Open Source Innovations
           </p>
           <p className="pt-10 sm:text-[18px] text-[16px] text-secondary uppercase tracking-wider">
-            Passionate Web E [ MERN, LAMP ] | Bash Scripting | Database design | Docker | Linux{" "}
+            Passionate Web Enginner [ MERN, LAMP ] | Bash Scripting | Database design | Docker | Linux{" "}
             <br className="sm:block hidden" /> | Networking | Exploring :
             Defence Security, Web 3.0, IoT 
           </p>
